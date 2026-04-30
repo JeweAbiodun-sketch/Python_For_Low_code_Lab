@@ -4,16 +4,17 @@ This project validates product data with Pydantic, generates AI-powered e-commer
 
 ## Project Structure
 
-- `product_generator_refactored.py` — original validation and generation demo script
-- `models.py` — Pydantic models for product input, generated listing, and API response
-- `config.py` — constants and OpenAI configuration
-- `loaders.py` — environment and sample/test data loaders
-- `validators.py` — validation helpers and error extraction
-- `image_helpers.py` — image download and base64 conversion helpers
-- `api_helpers.py` — OpenAI prompt, message, API call, and response parsing
-- `processor.py` — orchestration layer for full request processing
-- `output.py` — display and formatting helpers
-- `api_wrapper.py` — FastAPI wrapper for validation and generation endpoints
+- `product_generator_refactored.ipynb` — main validation and generation demo notebook
+- `models.ipynb` — Pydantic models for product input, generated listing, and API response
+- `config.ipynb` — constants and OpenAI configuration
+- `loaders.ipynb` — environment and sample/test data loaders
+- `validators.ipynb` — validation helpers and error extraction
+- `image_helpers.ipynb` — image download and base64 conversion helpers
+- `api_helpers.ipynb` — OpenAI prompt, message, API call, and response parsing
+- `processor.ipynb` — orchestration layer for full request processing
+- `output.ipynb` — display and formatting helpers
+- `api_wrapper.ipynb` — FastAPI wrapper for validation and generation endpoints
+- `logger.ipynb` — logging configuration
 - `REFACTORING_PLAN.md` — refactor plan and helper structure
 
 ## Setup
@@ -37,17 +38,17 @@ setx OPENAI_API_KEY "your_api_key"
 setx LOG_LEVEL "DEBUG"
 ```
 
-By default, log output is written to the console using the shared `logger.py` configuration.
+By default, log output is written to the console using the shared `logger.ipynb` configuration.
 
-## Running the CLI Demo
+## Running the Demo
 
-Run the main script for validation and optional end-to-end demo:
-
-```bash
-python product_generator_refactored.py
-```
+Open `product_generator_refactored.ipynb` in Jupyter and run the cells to see:
+- Pydantic validation demonstrations
+- End-to-end product listing generation (requires OpenAI API key)
 
 ## API Wrapper
+
+The `api_wrapper.ipynb` notebook contains a FastAPI application for serving the product generation functionality as a web API.
 
 The FastAPI wrapper is provided in `api_wrapper.py`.
 

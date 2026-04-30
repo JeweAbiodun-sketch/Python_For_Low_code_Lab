@@ -1,0 +1,5 @@
+﻿# Ignore the recovered API_Calling_JSON project folder
+API_Calling_JSON/API_Calling_with_JSON/
+
+# Hide sensitive environment variables
+.env

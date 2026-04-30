@@ -1,4 +1,3 @@
-
 # API Calling with JSON
 
 This project validates product data with Pydantic, generates AI-powered e-commerce product listings using OpenAI, and supports a FastAPI wrapper for API access.

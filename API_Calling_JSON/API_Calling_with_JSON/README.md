@@ -13,6 +13,7 @@ The repository contains the following Jupyter notebooks from the `API_Calling_JS
 - `config.ipynb` — constants and OpenAI configuration
 - `api_helpers.ipynb` — OpenAI prompt, message, API call, and response parsing
 - `logger.ipynb` — logging configuration
+- `VALIDATION_TEST_RESULTS.md` — documented validation test results and behavior comparison
 - `REFACTORING_PLAN.md` — refactor plan and helper structure
 
 ## Setup
